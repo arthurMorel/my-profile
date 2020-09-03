@@ -1,0 +1,113 @@
+body {
+
+	background-color: rgb(230,230,230);
+	font-weight: 400;
+	color: rgb(27, 73, 101);
+}
+
+.container{
+ height: auto;
+ width: 600px; 
+ margin: 40px auto;
+ background-color: rgb(235,235,235);
+ padding: 10px;
+}
+.margin-deal{
+	margin-top:40px;
+}
+#name{
+	width: 600px;
+	text-align:center;
+	font-size: 26px;
+	color: rgb(147, 173, 51);
+	font-weight: 450;
+	font-family: Bembo;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+#platinium-pict {
+	background-image: url('images/platinium.png');
+	height: 250px;
+	width: 250px;
+	background-position: under;
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 30px;
+	border: 2px solid white; 
+}
+.title-presentation {
+	font-style: italic;
+	color:rgb(72, 169, 166);
+	text-align: :center;
+}
+.project-goals {	
+	font-weight: 900;
+	font-size: 15px;
+	color: rgb(128, 161, 193);
+}
+.link {
+	text-decoration: none;
+}
+.project-goals .link:hover {
+	color: red;
+}
+.project-goals span {
+	margin: 0 200px;
+	font-style: italic;
+	font-size: 20px;
+}
+tr td  {
+text-align: center;
+border-width:0,5px; 
+border-style:solid; 
+border-color: rgb(200,200,200);
+width:50%;
+color: rgb(27, 73, 101);
+}
+
+.platinium-pict table {
+ display: inline-block;
+ vertical-align: center;
+ line-height: 1;
+ text-align: center;
+}
+ th{
+	font-style: italic;
+}
+.form{
+	font-weight: 900;
+	font-size: 15px;
+	background-color: rgb(220,220,220);
+}
+.form-detail{
+	margin-top: 20px;
+	line-height: 40px;
+	font-style: italic;
+}
+
+input::placeholder {
+  border-color: rgb(200,200,200);
+  font-style: italic;
+}
+
+input[value=text]{
+	background-color: green;
+	font-weight: 900;
+}
+
+
+@media (max-width: 700px ){
+	.container{
+		width: 400px; 
+	}
+
+}
+@media (max-width: 500px ){
+	.container{
+		width: 300px; 
+	}
+	#platinium-pict{
+		display:none;
+			}
+}
