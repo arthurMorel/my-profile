@@ -103,9 +103,9 @@ input[value=text]{
 	}
 
 }
-@media (max-width: 500px ){
+@media (max-width: 600px ){
 	.container{
-		width: 300px; 
+		width: 400px; 
 	}
 	#platinium-pict{
 		display:none;
